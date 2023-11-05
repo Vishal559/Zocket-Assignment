@@ -14,7 +14,10 @@ by compressing their images.
 ### Notes - 
 A additional parameter added to the product schema.<br>
 Product Id considered as string rather than int.<br>
+<br>
 Modified Schema
+<br>
+<br>
 <br>
 ID                      &nbsp;                           primitive.ObjectID <br>
 ProductID               &nbsp;                           string            
