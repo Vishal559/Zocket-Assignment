@@ -18,7 +18,6 @@ Product Id considered as string rather than int.<br>
 Modified Schema
 <br>
 <br>
-<br>
 ID                      &nbsp;                           primitive.ObjectID <br>
 ProductID               &nbsp;                           string            
 ProductName             &nbsp;                           string            
