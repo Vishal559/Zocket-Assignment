@@ -11,7 +11,7 @@ product details & product images. Creating product with images is completely opt
 running in the background every 1 minute. The cron job fetches 10 products which is not processed yet and process those
 by compressing their images. 
 
-Notes - 
+### Notes - 
 A additional parameter added to the product schema.<br>
 Product Id considered as string rather than int.<br>
 Modified Schema
@@ -31,7 +31,7 @@ UpdatedAt               &nbsp;                           time.Time
 The product images get stored in the folder /uploads. The compressed images will get stored in compressedImageUploads 
 folder. 
 
-Notes - 
+### Notes - 
 Only .jpg images supported by the image compression logic.
 
 ## Testing 
