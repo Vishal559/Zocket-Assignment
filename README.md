@@ -15,16 +15,16 @@ Notes -
 A additional parameter added to the product schema. Modified Schema
 Product Id considered as string rather than int.
 
-ID                      primitive.ObjectID 
-ProductID               string            
-ProductName             string            
-ProductDescription      string             
-ProductImages           []string           
-ProductPrice            int                
-CompressedProductImages []string           
-IsCompressed            bool               
-CreatedAt               time.Time          
-UpdatedAt               time.Time          
+ID                                                primitive.ObjectID 
+ProductID                                         string            
+ProductName                                       string            
+ProductDescription                                string             
+ProductImages                                     []string           
+ProductPrice                                      int                
+CompressedProductImages                           []string           
+IsCompressed                                      bool               
+CreatedAt                                         time.Time          
+UpdatedAt                                         time.Time          
 
 ## Image Compression
 The product images get stored in the folder /uploads. The compressed images will get stored in compressedImageUploads 
@@ -41,8 +41,8 @@ Unit Tests only added for product controllers.
 User Controller & Dao Method Unit Tests yet to add. 
 
 ## TESTING VIA POSTMAN
-![request-response](https://drive.google.com/file/d/131-Wrh8xR1MgOpGPBvbhvOjJK-9WGohv/view)
-![request-headers](https://drive.google.com/file/d/1CwiHsIfrmkc2bSVn7FFagwBWePpw7CMl/view)
+! [request-response](https://drive.google.com/file/d/131-Wrh8xR1MgOpGPBvbhvOjJK-9WGohv/view)
+! [request-headers](https://drive.google.com/file/d/1CwiHsIfrmkc2bSVn7FFagwBWePpw7CMl/view)
 
 
 
