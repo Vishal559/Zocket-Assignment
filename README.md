@@ -12,10 +12,11 @@ running in the background every 1 minute. The cron job fetches 10 products which
 by compressing their images. 
 
 Notes - 
-A additional parameter added to the product schema. Modified Schema
-Product Id considered as string rather than int.
-
-ID                      &nbsp;                           primitive.ObjectID 
+A additional parameter added to the product schema.<br>
+Product Id considered as string rather than int.<br>
+Modified Schema
+<br>
+ID                      &nbsp;                           primitive.ObjectID <br>
 ProductID               &nbsp;                           string            
 ProductName             &nbsp;                           string            
 ProductDescription      &nbsp;                           string             
