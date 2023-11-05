@@ -15,16 +15,16 @@ Notes -
 A additional parameter added to the product schema. Modified Schema
 Product Id considered as string rather than int.
 
-ID                      <br>                           primitive.ObjectID 
-ProductID               <br>                           string            
-ProductName             <br>                           string            
-ProductDescription      <br>                           string             
-ProductImages           <br>                           []string           
-ProductPrice            <br>                           int                
-CompressedProductImages <br>                           []string           
-IsCompressed            <br>                           bool               
-CreatedAt               <br>                           time.Time          
-UpdatedAt               <br>                           time.Time          
+ID                      &nbsp                           primitive.ObjectID 
+ProductID               &nbsp                           string            
+ProductName             &nbsp                           string            
+ProductDescription      &nbsp                           string             
+ProductImages           &nbsp                          []string           
+ProductPrice            &nbsp                           int                
+CompressedProductImages &nbsp                          []string           
+IsCompressed            &nbsp                           bool               
+CreatedAt               &nbsp                          time.Time          
+UpdatedAt               &nbsp                          time.Time          
 
 ## Image Compression
 The product images get stored in the folder /uploads. The compressed images will get stored in compressedImageUploads 
