@@ -14,7 +14,7 @@ by compressing their images.
 Notes - 
 A additional parameter added to the product schema. Modified Schema
 Product Id considered as string rather than int.
-`
+
 ID                      primitive.ObjectID `bson:"_id,omitempty" json:"-"`
 ProductID               string             `bson:"product_id,omitempty" json:"product_id"`
 ProductName             string             `bson:"product_name" json:"product_name"`
@@ -25,7 +25,7 @@ CompressedProductImages []string           `bson:"compressed_product_images" jso
 IsCompressed            bool               `bson:"is_compressed" json:"is_compressed"`
 CreatedAt               time.Time          `bson:"created_at" json:"created_at"`
 UpdatedAt               time.Time          `bson:"updated_at" json:"updated_at"`
-`
+
 ## Image Compression
 The product images get stored in the folder /uploads. The compressed images will get stored in compressedImageUploads 
 folder. 
@@ -41,8 +41,8 @@ Unit Tests only added for product controllers.
 User Controller & Dao Method Unit Tests yet to add. 
 
 ## TESTING VIA POSTMAN
-![request-response](https://drive.google.com/file/d/131-Wrh8xR1MgOpGPBvbhvOjJK-9WGohv/view?usp=sharing)
-![request-headers](https://drive.google.com/file/d/1CwiHsIfrmkc2bSVn7FFagwBWePpw7CMl/view?usp=sharing)
+`![request-response](https://drive.google.com/file/d/131-Wrh8xR1MgOpGPBvbhvOjJK-9WGohv/view?usp=sharing)`
+`![request-headers](https://drive.google.com/file/d/1CwiHsIfrmkc2bSVn7FFagwBWePpw7CMl/view?usp=sharing)`
 
 
 
